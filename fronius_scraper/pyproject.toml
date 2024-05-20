@@ -19,6 +19,7 @@ development = ["black==22.12.*"]
 
 [project.scripts]
 fronius-scraper = "scripts.scrape:main"
+fronius-data-parser = "scripts.parse_json_files:main"
 
 [build-system]
 requires = ["hatchling"]
