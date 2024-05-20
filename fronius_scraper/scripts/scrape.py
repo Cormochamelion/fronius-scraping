@@ -11,7 +11,7 @@ from fronius_scraper.scrape import run_scraper
 
 def main():
     argparser = argparse.ArgumentParser(
-        "Fronius Solarweb Scraper",
+        "fronius-scraper",
         description=(
             "Scrape daily JSON generation & usage stats from Fronius Solarweb."
         ),
