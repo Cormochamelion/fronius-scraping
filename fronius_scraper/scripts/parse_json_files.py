@@ -29,7 +29,7 @@ def main():
 
     args = argparser.parse_args()
 
-    data_parser.main(output_dir=args.output_dir, input_dir=args.input_dir)
+    data_parser.parse_json_data(output_dir=args.output_dir, input_dir=args.input_dir)
 
 
 if __name__ == "__main__":
